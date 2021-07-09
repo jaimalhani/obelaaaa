@@ -1,0 +1,57 @@
+ .color{ 
+    background-image: linear-gradient(
+        90deg
+        ,#1974ab,#045281);
+        color: white;
+    
+ }
+
+ @media (max-width: 992px) { .color{
+   padding: 20px 20px;
+   
+} }
+
+ .color2{ 
+    background-image: linear-gradient(
+        90deg
+        ,#1974ab,#045281);
+        color: white;
+        height: 500px;
+    
+ }
+ .button{
+      
+     
+    color: #fff;
+    padding: 5px 35px;
+    font-size: 18px;
+    line-height: 1.64;
+    letter-spacing: .5px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #1b99e5;
+    transition: all .5s;
+    border: none;
+    margin-top: 5px;
+
+ }
+
+ .img{
+   margin-top: 200px; display: flex;
+ }
+  
+
+ body {
+    margin: 0;
+    font-family: GothamPro,sans-serif;
+    text-align: center;
+}
+
+
+@media (max-width: 768px){
+   .img img{
+      display: block;
+   }
+
+}
+
